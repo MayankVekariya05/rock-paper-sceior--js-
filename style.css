@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#nav{
+    height: 90px;
+    background-color: rgb(5, 5, 35);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+#rock img{
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+    
+}
+#rock:hover{
+    border: 10px solid black;
+    border-radius: 50%;
+}
+#paper img{
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+#paper:hover{
+    border: 10px solid black;
+    border-radius: 50%;
+}
+#scissor img{
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+#scissor:hover{
+    border: 10px solid black;
+    border-radius: 50%;
+}
+#img{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.score {
+font-size: 30px;
+padding: 30px;
+
+}
+#user-score{
+    font-size: 50px;
+    padding-left: 10px;
+}
+#comp-score{
+    font-size: 50px;
+    padding-left: 10px;
+}
+#para{
+    background-color:  rgb(5, 5, 35);
+    color: aliceblue;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    line-height: 3rem;     /* new property */
+    
+}
+.msg-container{
+    display: flex;
+    justify-content: center;
+}
